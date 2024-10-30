@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden; /* Prevent scroll */
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.imag{
+    height: 30vh;
+    overflow: hidden;
+    width: auto;
+}
+.background {
+    background-color: #010101; /* Dark background for contrast */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Behind all other elements */
+}
+.messageo{
+    text-align: center;
+    color: #FFD700; /* Gold color */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the message */
+}
+/* Message styling */
+.message {
+    text-align: center;
+    color: #FFD700; /* Gold color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the message */
+}
+
+.message h1 {
+    font-size: 4em;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.8);
+}
+
+.message h4 {
+    font-size: 2em;
+    margin: 10px 0;
+    text-shadow: 1px 1px 6px rgba(255, 215, 0, 0.8);
+}
+
+/* Firework styling */
+.firework {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.7;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Prevent scroll */
+}
+
+.background {
+    background-color: #000000; /* Dark background for contrast */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Behind all other elements */
+}
+
+/* Message styling */
+.message {
+    text-align: center;
+    color: #FFD700; /* Gold color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the message */
+    padding: 10px;
+}
+
+.message h1 {
+    font-size: 6vw; /* Responsive font size */
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.8);
+}
+
+.message h2 {
+    font-size: 4vw; /* Responsive font size */
+    margin: 10px 0;
+    text-shadow: 1px 1px 6px rgba(255, 215, 0, 0.8);
+}
+
+/* Firework styling */
+.firework {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+/* Media queries for smaller devices */
+@media (max-width: 1000px) {
+    .message h1 {
+        font-size: 10vw; /* Larger size for smaller screens */
+    }
+
+    .message h2 {
+        font-size: 1vw; /* Larger size for smaller screens */
+    }
+}
+
+/* Adjust canvas style */
+#confetti-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Prevent interactions */
+}
+.m{
+    font-size: 5rem;
+    color: #fff200;
+    text-shadow: 2px 2px 10px rgba(242, 255, 0, 0.3);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid none; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end)}
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
