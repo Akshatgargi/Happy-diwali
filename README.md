@@ -1,0 +1,2 @@
+Happy diwali to everyone, this is a basic static web page for personalised diwali wishes. So, it basically starts by giving you a input alert, asking your name, which is then used in " To {Personname}". After you input the name,
+you get a custom Happy diwali webpage. The webpage itself has a fireworks gif and uses math.random, a javascript function to generate confetti-like effect, the page has some typing css animations.
